@@ -1,0 +1,38 @@
+.delete_btn{
+    width: 70px;
+    height: 27px;
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+}
+.delete_btn:hover{
+    background-color: darkred;
+}
+.edit_btn{
+    width: 70px;
+    height: 27px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+}
+.edit_btn:hover{
+    background-color: darkgreen;
+}
+.updateBtn{
+    width: 100px;
+    height: 30px;
+    /*border: 1px solid black;*/
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.updateBtn:hover{
+    background-color: darkgreen;
+}

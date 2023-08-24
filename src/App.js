@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
+import HomePage from "./components/homePage/homePage";
+import MansProduct from "./components/manProductPage/mansProduct";
+import {womanData} from "./fakeData";
+import WomanProduct from "./components/womanProducts/womanProducts";
+import KidProduct from "./components/kidProducts/kidProducts";
+import Header from "./components/header/header";
 
 function App() {
+    const [currentPage,setCurrentPage] = useState('home')
+    if(currentPage === 'home'){
+        return <HomePage setCurrentPage = {setCurrentPage}/>
+    }else if(currentPage === 'man'){
+        return <MansProduct currentPage = {setCurrentPage}/>
+    }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<HomePage/>*/}
     </div>
   );
 }
