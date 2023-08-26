@@ -129,3 +129,15 @@
     align-items: center;
     /*justify-content: center;*/
 }
+.delete_btn{
+    width: 70px;
+    height: 27px;
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+}
+.delete_btn:hover{
+    background-color: darkred;
+}

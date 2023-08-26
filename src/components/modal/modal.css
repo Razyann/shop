@@ -6,7 +6,7 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin:  -150px 0 0 -120px;
+    margin:  -180px 0 0 -170px;
     display: none;
     display: flex;
     padding-left: 20px;
@@ -18,8 +18,39 @@
     width: 250px;
     height: 40px;
     border: 1px solid black;
+    margin-top: 10px;
 }
 .input_name{
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.cancel_box{
+    width: 25px;
+    height: 25px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/public/images/cancel.png");
+}
+.input_discount{
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.input_rating{
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.input_order{
     width: 250px;
     height: 40px;
     border: 1px solid black;

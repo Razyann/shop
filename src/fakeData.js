@@ -7,6 +7,7 @@ export const manData = [
         name: 'UZcotton Футболка хлопок однотонная',
         rating: '4.6',
         orders: '2345',
+        id:1
     },
     {
         type: 'man',
@@ -16,6 +17,7 @@ export const manData = [
         name: 'neprosto Футболка женская базовая с принтом сердце белая хлопок',
         rating: '4.5',
         orders: '1299',
+        id:2
     },
     {
         type: 'man',
@@ -25,6 +27,7 @@ export const manData = [
         name: 'Ticle Футболка женская оверсайз хлопок однотонная летняя длинная',
         rating: '4.8',
         orders: '23454',
+        id:3
     },
     {
         type: 'man',
@@ -34,6 +37,7 @@ export const manData = [
         name: 'Фибоначчи Футболка мужская оверсайз хлопокФибоначчи Футболка мужская оверсайз хлопок',
         rating: '4.4',
         orders: '863',
+        id:4
     },
     {
         type: 'man',
@@ -43,6 +47,7 @@ export const manData = [
         name: 'Interesno Футболка оверсайз с принтом белая oversize удлиненная ',
         rating: '4.6',
         orders: '11454',
+        id:5
     },
     {
         type: 'man',
@@ -52,6 +57,7 @@ export const manData = [
         name: 'Smite Футболка мужская женская однотонная оверсайз хлопок черная ',
         rating: '4.6',
         orders: '922',
+        id:6
     },
     {
         type: 'man',
@@ -61,6 +67,7 @@ export const manData = [
         name: 'Whitе Тор Футболка белая женская мужская оверсайз хлопок базовая',
         rating: '4.9',
         orders: '3340',
+        id:7
     },
     {
         type: 'man',
@@ -70,6 +77,7 @@ export const manData = [
         name: 'GRIN nomer 1 Футболка хлопок оверсайз мужская однотонная',
         rating: '4.7',
         orders: '5460',
+        id:8
     },
     {
         type: 'man',
@@ -79,6 +87,7 @@ export const manData = [
         name: 'LOATHE wear Футболка оверсайз "devil"',
         rating: '4.5',
         orders: '556',
+        id:9
     },
     ]
 export const womanData = [
@@ -90,6 +99,7 @@ export const womanData = [
         name: 'Woman basic Топ летний с длинным рукавом"',
         rating: '4.8',
         orders: '1293',
+        id:1
     },
     {
         type: 'woman',
@@ -99,6 +109,7 @@ export const womanData = [
         name: 'kechi woman Топ на молнии базовый',
         rating: '4.7',
         orders: '13593',
+        id:2
     },
     {
         type: 'woman',
@@ -108,6 +119,7 @@ export const womanData = [
         name: 'Glam Woman Леггинсы спортивные моделирующие',
         rating: '5',
         orders: '234',
+        id:3
     },
     {
         type: 'woman',
@@ -117,6 +129,7 @@ export const womanData = [
         name: 'Woman Myth Shoes Мокасины',
         rating: '4.8',
         orders: '963',
+        id:4
     },
     {
         type: 'woman',
@@ -126,6 +139,7 @@ export const womanData = [
         name: 'Pretty Woman Рубашка оверсайз больших размеров',
         rating: '4.5',
         orders: '8431',
+        id:5
     },
     {
         type: 'woman',
@@ -135,6 +149,7 @@ export const womanData = [
         name: 'Woman.li Брюки карго женские широкие штаны',
         rating: '4.9',
         orders: '513',
+        id:6
     },
     {
         type: 'woman',
@@ -144,6 +159,7 @@ export const womanData = [
         name: 'Pretty Woman Пиджак в клетку больших размеров',
         rating: '4.4',
         orders: '23447',
+        id:7
     },
     {
         type: 'woman',
@@ -153,6 +169,7 @@ export const womanData = [
         name: 'COMOKOD woman Пальто женское демисезонное',
         rating: '4.7',
         orders: '2349',
+        id:8
     },
     {
         type: 'woman',
@@ -162,6 +179,7 @@ export const womanData = [
         name: 'Pretty Woman Костюм женский брючный классический офисный школьный',
         rating: '4.8',
         orders: '15932',
+        id:9
     },
     ]
 export const kidData = [
@@ -173,6 +191,7 @@ export const kidData = [
         name: 'Coon Kids Детский костюм летний с шортами для мальчика и девочки',
         rating: '4.8',
         orders: '934',
+        id:1
     },
     {
         type: 'kid',
@@ -182,6 +201,7 @@ export const kidData = [
         name: 'Mango kids Брюки',
         rating: '4.7',
         orders: '1932',
+        id:2
     },
     {
         type: 'kid',
@@ -191,6 +211,7 @@ export const kidData = [
         name: 'Dolce Kids Костюм для малыша',
         rating: '4.9',
         orders: '2005',
+        id:3
     },
     {
         type: 'kid',
@@ -200,6 +221,7 @@ export const kidData = [
         name: 'Maftis kids пижама хлопковая костюм домашний',
         rating: '4.8',
         orders: '4526',
+        id:4
     },
     {
         type: 'kid',
@@ -209,6 +231,7 @@ export const kidData = [
         name: 'FRENCH KIDS Детский костюм для новорожденных малышей',
         rating: '5',
         orders: '764',
+        id:5
     },
     {
         type: 'kid',
@@ -218,6 +241,7 @@ export const kidData = [
         name: 'Mango kids Джемпер',
         rating: '4.6',
         orders: '19302',
+        id:6
     },
     {
         type: 'kid',
@@ -227,6 +251,7 @@ export const kidData = [
         name: 'BRIGHT KIDS Развивающая брошюра с наклейками, формата А4',
         rating: '4.8',
         orders: '2701',
+        id:7
     },
     {
         type: 'kid',
@@ -236,6 +261,7 @@ export const kidData = [
         name: 'Mango kids Джинсы',
         rating: '4.5',
         orders: '1252',
+        id:8
     },
     {
         type: 'kid',
@@ -245,12 +271,7 @@ export const kidData = [
         name: 'Mango kids Рубашка',
         rating: '4.6',
         orders: '853',
+        id:9
+
     },
-
-
-
-
-
-
-
 ]

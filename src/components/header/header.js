@@ -1,6 +1,10 @@
 import style from './header.css'
+import SearchBtn from "../buttons/searchBtn";
+import SearchInput from "./searchInput";
+import {useState} from "react";
 
-export default function Header({currentPage,setCurrentPage}){
+export default function Header({currentPage,setCurrentPage,search,setSearch,handlerSearch}){
+    // let [search,setSearch] = useState('')
     return(
         <div className={'header'}>
             <div className={'logo_box'}></div>
@@ -22,6 +26,10 @@ export default function Header({currentPage,setCurrentPage}){
                         KIDS
                     </p>
                 </div>
+            </div>
+            <div className={'search_cont'}>
+                <SearchInput search={search} setSearch={setSearch}/>
+                <SearchBtn setSearch={setSearch} search={search} handlerSearch={handlerSearch}/>
             </div>
             <div className={'right_content'}>
                 <div className={'like_box'}></div>

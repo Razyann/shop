@@ -9,7 +9,7 @@ import ProductOrders from "./productOrders";
 import DeleteBtn from "../buttons/deletebutton";
 import EditBtn from "../buttons/editbutton";
 import Modal from "../modal/modal";
-export default function ProductCard({item,handlerEdit}){
+export default function ProductCard({item,handlerEdit,handlerUpdate,deleteObject}){
     const [ishow,setiShow] = useState('none')
     return(
         <div className={'product_card'}>
@@ -42,10 +42,11 @@ export default function ProductCard({item,handlerEdit}){
                     <EditBtn handlerEdit={handlerEdit} item={item}  show={setiShow} ishow={ishow}/>
                 </div>
                 <div className={'delete_btn_box'}>
-                    <DeleteBtn/>
+                    {/*<DeleteBtn deleteObject={deleteObject} item={item}/>*/}
+                    <button className={'delete_btn'} onClick={() => {deleteObject(item.id)}}>Delete</button>
                 </div>
             </div>
-            <Modal display={ishow} item={item}/>
+            <Modal display={ishow} item={item} handlerUpdate={handlerUpdate} show={setiShow}/>
         </div>
     )
 }

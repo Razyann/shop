@@ -81,7 +81,7 @@
     width: 10%;
     height: 100%;
     /*border: 1px solid black;*/
-    margin-left: 240px;
+    margin-left: 0px;
     display: flex;
 }
 .like_box{
@@ -102,4 +102,17 @@
     background-size: 35px 35px;
     background-position: center;
     background-repeat: no-repeat;
+}
+.search_cont{
+    width: 350px;
+    height: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+justify-content: center}
+.input_search{
+    width: 180px;
+    height: 35px;
 }
